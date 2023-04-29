@@ -32,7 +32,41 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.appoinment-section tr,
+.appoinment-section td,
+.appoinment-section th {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.appoinment-section{
+  /* justify-content: space-between; */
+  padding: 20px;
+}
+
+.appoinment-section th{
+  justify-content: center;
+}
+
+.prince-style{
+  padding: 10px;
+}
+
+.googlebutton{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  
+}
+
+/* .center-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
